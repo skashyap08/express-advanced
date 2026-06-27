@@ -108,3 +108,17 @@ background:rgba(255,255,255,.08);
 }
 
 @media(max-width:768px){
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero h1{
+font-size:42px;
+}
+}
