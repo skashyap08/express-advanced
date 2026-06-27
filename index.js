@@ -25,3 +25,10 @@ app.get("/gallery", (req, res) => {
 app.get("/contact", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "contact.html"));
 });
+app.use((req, res) => {
+    res.status(404).send("<h1>404 Page Not Found</h1>");
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
