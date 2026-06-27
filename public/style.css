@@ -15,3 +15,13 @@ transition:.5s;
 .dark{
 background:#111827;
 }
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+position:sticky;
+top:0;
+backdrop-filter:blur(20px);
+background:rgba(255,255,255,.08);
+}
