@@ -24,4 +24,13 @@ position:sticky;
 top:0;
 backdrop-filter:blur(20px);
 background:rgba(255,255,255,.08);
+}.logo{
+font-size:30px;
+font-weight:bold;
+}
+
+ul{
+display:flex;
+gap:25px;
+list-style:none;
 }
