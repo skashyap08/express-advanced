@@ -5,3 +5,13 @@ box-sizing:border-box;
 font-family:Poppins,sans-serif;
 scroll-behavior:smooth;
 }
+body{
+background:linear-gradient(135deg,#0f172a,#2563eb,#9333ea);
+color:white;
+min-height:100vh;
+transition:.5s;
+}
+
+.dark{
+background:#111827;
+}
