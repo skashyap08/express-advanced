@@ -34,3 +34,12 @@ display:flex;
 gap:25px;
 list-style:none;
 }
+a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+a:hover{
+color:#38bdf8;
+}
