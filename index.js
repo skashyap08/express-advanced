@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 // Static Folder
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -30,5 +30,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+     console.log(`🚀 Server Running at http://localhost:${PORT}`);
 });
