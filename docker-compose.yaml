@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
 
-    container_name: express-website
+    container_name: express-advanced
 
     ports:
       - "3000:3000"
