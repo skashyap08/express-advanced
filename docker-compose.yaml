@@ -9,7 +9,7 @@ services:
     container_name: express-advanced
 
     ports:
-      - "3000:3000"
+      - "6000:6000"
 
     env_file:
       - .env
